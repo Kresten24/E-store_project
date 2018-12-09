@@ -13,10 +13,10 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav mx-auto order-0">
-					<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#">About Us</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
-					<a class="nav-item nav-link" href="#">Locations</a>
+					<a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="about-us.php">About Us</a>
+					<a class="nav-item nav-link" href="contact.php">Contact</a>
+					<a class="nav-item nav-link" href="locations.php">Locations</a>
 				</div>
 				<div class="navbar-nav navbar-right">
 					<a class="nav-item nav-link" href="register.php">Sign up</a>

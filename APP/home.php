@@ -1,5 +1,4 @@
 <?php include 'Header.php'; ?>
-<link rel="stylesheet" type="text/css" href="Assets/CSS/project.css">
 <body id="home">
   <div class="content">
     <div class="imgContent"><a target="_blank" href="img5.jpg"><img src="Images/img5.jpg" alt="watch"></a> <br> Citizen | $300 <br><form ><button class="atc"><label>add to cart</label></button></form></div>

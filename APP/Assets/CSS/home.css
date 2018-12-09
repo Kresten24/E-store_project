@@ -29,12 +29,6 @@ footer{
   left: 0;
   position: fixed;
 }
-nav a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #818181;
-  padding-left: 40px;
-}
 .extend{
   width:200px;
 }
@@ -130,4 +124,7 @@ img{
   background-color: #d6d6d6;
   border-radius: 3px;
   border: 1px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  padding: 0 16px;
 }
