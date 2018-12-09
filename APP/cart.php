@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>eStore</title>
-	<link rel="stylesheet" type="text/css" href="project.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/project.css">
 </head>
 <body>
 
@@ -46,6 +46,6 @@
 
 <footer>&copy; 2030 estore &nbsp; Design by Kresten Ordekian.</footer>
 
-<script type="text/javascript" src="project.js"></script>
+<script type="text/javascript" src="Assets/JS/project.js"></script>
 </body>
 </html>
