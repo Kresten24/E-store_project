@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 .sideMenu a{
   padding: 10px 1px 10px 10px;
   text-decoration: none;
@@ -32,14 +35,6 @@ footer{
 .extend{
   width:200px;
 }
-.content{
-  position: absolute;
-  left: 200px;
-  padding-top: 60px;
-  display: inline-block;
-  text-align: center;
-  width: 80%;
-}
 img{
   border: 1px solid rgba(221, 221, 221, 0.3);
   border-radius: 4px;
@@ -63,14 +58,14 @@ img{
 }
 #form-register{
   box-shadow: 10px 10px 10px rgba(0 ,0 ,0 ,0.7);
-  display: inline-block;
-  width: 50%;
   color:#fff;
   background-color: rgba(0, 0, 0, 0.75);
-  padding-left: 100px;
-  padding-right: 10px;
-  margin: 5% 30% 10% 15%;
+  padding: 20px 10px 20px 10px;
   text-align: left;
+  float: right;
+  width: 35%;
+  margin-top: 7%;
+
 }
 #form-login{
   background-color: rgba(0, 0, 0, 0.5);
@@ -92,33 +87,22 @@ img{
   background-repeat:none;
   background-size:cover;
 }
-.register-input{
-  text-align: left;
-  height: 30px;
-  border:1px solid #bdc7d8;
-  border-radius: 5px;
-  margin: 0;
-  padding-left: 10px;
-  font-weight: bold;
-}
-.content .radio{
-  height: 12px;
-}
 .content select{
   height: 35px;
   width: 60px;
   border-radius: 1px;
   border:1px solid #bdc7d8;
 }
-#bd{
+#birthday{
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 18px;
 }
 #signUp{
   background-image: url("../../Images/bg.jpg");
-  background-repeat: none;
   background-size: cover;
+  height: 100%;
+  overflow-y: auto;
 }
 .atc{
   background-color: #d6d6d6;
@@ -127,4 +111,21 @@ img{
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light{
   padding: 0 16px;
+}
+.register-input{
+  margin-bottom: 5px;
+}
+select.form-control{
+  width: 25%;
+  display: inline;
+}
+div.form-check{
+  width: 25%;
+  display: inline;
+}
+#signup-submit{
+  margin: 15px auto;
+  display: block;
+  width: 25%;
+  border-radius: 7px;
 }
