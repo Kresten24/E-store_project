@@ -15,4 +15,5 @@ Route::get('/home', 'pagesController@home');
 Route::get('/contact', 'pagesController@contact');
 Route::get('/about-us', 'pagesController@about');
 Route::get('/register', 'pagesController@register');
+Route::post('/register', 'pagesController@store');
 Route::get('/login', 'pagesController@login');
