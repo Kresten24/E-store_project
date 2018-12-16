@@ -2,11 +2,20 @@
 @section('title', 'login')
 @section('content')
 <body id="login">
-	<form id="form-login" method="post">
-		<br>
-		<p><input class="login-input" placeholder=" Email" type="email" name="email"></p>
-		<p><input class="login-input" placeholder=" Password" type="password" name="password"></p>
-		<input class="login-input" style="width: 25%; height: 25px;" type="submit" name="login" value="login">
-	</form>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<form id="form-login">
+			<div class="form-group">
+				<input type="email" class="form-control" name="email" placeholder="Enter email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" name="password" placeholder="Password">
+			</div>
+			<button type="submit" class="btn btn-primary login">Submit</button>
+		</form>
+		</div>
+	</div>
+</div>
 </body>
 @endsection
