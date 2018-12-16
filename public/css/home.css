@@ -87,7 +87,7 @@ img{
   font-weight: bold;
   font-size: 18px;
 }
-#signUp,{
+#signUp{
   background-image: url("../../Images/bg.jpg");
   background-size: cover;
   height: 100%;
@@ -124,7 +124,7 @@ div.form-check{
   background-color: rgba(0, 0, 0, 0.75);
   padding: 20px 10px 20px 10px;
   width: 30%;
-    display: block;
+  display: block;
   margin: 0 auto;
   margin-top: 7%;
 

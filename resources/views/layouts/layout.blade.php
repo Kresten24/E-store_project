@@ -16,7 +16,7 @@
 					<a class="nav-item nav-link active" href="/home">Home <span class="sr-only">(current)</span></a>
 					<a class="nav-item nav-link" href="/about-us">About Us</a>
 					<a class="nav-item nav-link" href="/contact">Contact</a>
-					<a class="nav-item nav-link" href="locations.php">Locations</a>
+					<a class="nav-item nav-link" href="/locations">Locations</a>
 				</div>
 				<div class="navbar-nav navbar-right">
 					<a class="nav-item nav-link" href="/register">Sign up</a>

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts/layout')
 @section('title', 'login')
 @section('content')
 <body id="login">

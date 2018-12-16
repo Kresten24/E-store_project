@@ -13,6 +13,9 @@ class pagesController extends Controller
     public function contact(){
       return view('contact');
     }
+    public function locations(){
+      return view('locations');
+    }
     public function register(){
       return view('register');
     }
