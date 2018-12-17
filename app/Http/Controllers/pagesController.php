@@ -31,7 +31,6 @@ class pagesController extends Controller
       $user->gender = request('gender');
       $user->birthday =  date(request("y").'-'.request("m").'-'.request("d"));
       $user->password = md5(request('password'));
-      $user->confirmpassword = md5(request('confirmpassword'));
       $user->save();
       return redirect('\register');
     }

@@ -15,6 +15,10 @@ Route::get('/home', 'pagesController@home');
 Route::get('/contact', 'pagesController@contact');
 Route::get('/about-us', 'pagesController@about');
 Route::get('/locations', 'pagesController@locations');
-Route::get('/register', 'pagesController@register');
-Route::post('/register', 'pagesController@store');
-Route::get('/login', 'pagesController@login');
+Route::get('auth/register', 'RegisterController@register');
+Route::post('auth/register', 'RegisterController@store');
+Route::get('auth/login', 'pagesController@login');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
